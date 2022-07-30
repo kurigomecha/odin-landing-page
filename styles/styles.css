@@ -133,6 +133,11 @@ a {
 
 .footer {
   color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75px;
+  font-size: 1.15em;
 }
 
 /* Flexbox */
