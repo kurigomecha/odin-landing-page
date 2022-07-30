@@ -14,6 +14,12 @@ a {
 button {
   background: #3882f6;
   color: #f9faf8;
+  align-self: flex-start;
+  padding: 10px 30px;
+  font-weight: 800;
+  font-size: 1em;
+  border-radius: 8px;
+  border: none;
 }
 
 .header,
@@ -28,11 +34,22 @@ button {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 25px;
 }
 
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: 800;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 0 10%;
 }
 
 /* Hero */
@@ -47,6 +64,31 @@ button {
 a {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 400px;
+  flex-wrap: wrap;
+  padding: 0 10%;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  min-width: 550px;
+  flex: 1;
+}
+
+.hero-image {
+  width: 600px;
+  height: 250px;
+  background: #6d747d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Info */
