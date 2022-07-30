@@ -1,2 +1,86 @@
-/* font-family: 'Roboto', sans-serif; */
-/* For future use */
+/* General */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: #3882f6;
+  color: #f9faf8;
+}
+
+.header,
+.hero,
+.footer {
+  background: #1f2937;
+}
+
+/* Header */
+
+.header-link {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* Hero */
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero p,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Info */
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.info p {
+  color: #1f2937;
+  font-size: 0.75em;
+}
+
+/* Quote */
+
+.quote {
+  background: #e5e7eb;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1f2937;
+}
+
+/* Call to action */
+
+.call-to-action {
+ background: #3882f6;
+ color: #f9faf8;
+}
+
+/* Footer */
+
+.footer {
+  color: #f9faf8;
+}
