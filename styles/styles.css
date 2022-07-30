@@ -2,6 +2,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
@@ -83,4 +86,15 @@ a {
 
 .footer {
   color: #f9faf8;
+}
+
+/* Flexbox */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.central-container {
+ flex: 1;
 }
