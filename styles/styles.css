@@ -146,6 +146,11 @@ a {
 
 .quote {
   background: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 0 27.5%;
+  min-height: 400px;
+  justify-content: center;
 }
 
 .quote blockquote {
@@ -153,6 +158,13 @@ a {
   font-style: italic;
   font-weight: 200;
   color: #1f2937;
+  margin: 0;
+}
+
+.quote p {
+  margin: 0 0 0 auto;
+  font-weight: 800;
+  font-size: 1.5em;
 }
 
 /* Call to action */
