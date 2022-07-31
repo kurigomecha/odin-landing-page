@@ -170,8 +170,41 @@ a {
 /* Call to action */
 
 .call-to-action {
- background: #3882f6;
- color: #f9faf8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.call-container {
+  display: flex;
+  background: #3882f6;
+  color: #f9faf8;
+  padding: 50px 100px;
+  border-radius: 8px;
+  align-items: center;
+  min-width: 40%;
+  gap: 15px;
+}
+
+.call-main {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  flex: 1;
+}
+
+.call-button button {
+  border: 2px solid white;
+}
+
+.call-main > p, h3 {
+  margin: 0;
+}
+
+.call-main h3 {
+  font-size: 1.25em;
 }
 
 /* Footer */
