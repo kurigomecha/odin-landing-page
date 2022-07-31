@@ -54,7 +54,7 @@ button:active {
   display: flex;
   /* justify-content: space-around; */
   align-items: center;
-  padding: 0 10%;
+  padding: 0 20%;
 }
 
 /* Hero */
@@ -63,6 +63,7 @@ button:active {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
+  margin: 0;
 }
 
 .hero p,
@@ -71,13 +72,17 @@ a {
   color: #e5e7eb;
 }
 
+.hero p {
+  margin-top: 5px;
+}
+
 .hero {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 450px;
   flex-wrap: wrap;
-  padding: 0 10%;
+  padding: 0 20%;
 }
 
 .hero-main {
