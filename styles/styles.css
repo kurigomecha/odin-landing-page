@@ -33,6 +33,15 @@ button:active {
   background: #1f2937;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.central-container {
+   flex: 1;
+}
+
 /* Header */
 
 .header-link {
@@ -221,15 +230,4 @@ a {
   align-items: center;
   min-height: 75px;
   font-size: 1.15em;
-}
-
-/* Flexbox */
-
-.main-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.central-container {
- flex: 1;
 }
