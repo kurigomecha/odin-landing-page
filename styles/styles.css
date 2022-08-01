@@ -9,6 +9,8 @@ body {
 
 a {
   text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 button {
@@ -56,6 +58,20 @@ button:active {
 
 /* Hero */
 
+.hero {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Used for hero-image spacing when wrapped */
+  min-height: 450px;
+  padding: 0 20%;
+}
+
+.hero-main {
+  flex: 1;
+  min-width: 550px;  
+}
+
 .hero h1 {
   color: #f9faf8;
   font-size: 48px;
@@ -63,30 +79,11 @@ button:active {
   margin: 0;
 }
 
-.hero p,
-a {
+.hero p {
   color: #e5e7eb;
   font-size: 18px;
-}
-
-.hero p {
   margin-top: 5px;
-}
-
-.hero {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  min-height: 450px;
-  padding: 0 20%;
-}
-
-.hero-main {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  min-width: 550px;
+  margin-right: 25px; /* Not perfect, but keeps the text element shorter */
 }
 
 .hero-image {
