@@ -35,25 +35,23 @@ button:active {
 
 /* Header */
 
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20%;
+}
+
 .header-link {
   display: flex;
   gap: 25px;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .header-logo {
   color: #f9faf8;
-  flex: 1;
   font-size: 24px;
   font-weight: 800;
-}
-
-.header {
-  align-items: center;
-  display: flex;
-  padding: 0 20%;
 }
 
 /* Hero */
