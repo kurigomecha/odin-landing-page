@@ -201,9 +201,13 @@ button:active {
 
 .footer {
   align-items: center;
-  color: #f9faf8;
   display: flex;
-  font-size: 1.15em;
+  flex-direction: column;
+  gap: 2px;
   justify-content: center;
   min-height: 75px;
+}
+
+.footer p {
+  margin: 0;
 }
