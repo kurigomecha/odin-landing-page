@@ -97,26 +97,6 @@ button:active {
 
 /* Info */
 
-.info h2 {
-  color: #1f2937;
-  font-size: 36px;
-  font-weight: 800;
-}
-
-.info p {
-  color: #1f2937;
-  font-size: 0.75em;
-}
-
-.info-image {
-  border-radius: 1.25em;
-  border: 4px solid #3882f6;
-  height: 200px;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-}
-
 .info {
   align-items: center;
   display: flex;
@@ -125,20 +105,32 @@ button:active {
   min-height: 450px;
 }
 
+.info h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800;
+}
+
 .info-group {
-  column-gap: 100px;
+  column-gap: 100px; 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
+}
+
+.info-group p {
+  color: #1f2937;
 }
 
 .item-container {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-size: 1.25em;
   max-width: 200px;
-  text-align: center;
+}
+
+.info-image {
+  border-radius: 1.25em;
+  border: 4px solid #3882f6;
+  height: 200px;
 }
 
 /* Quote */
