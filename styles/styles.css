@@ -33,15 +33,6 @@ button:active {
   background: #1f2937;
 }
 
-.main-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.central-container {
-   flex: 1;
-}
-
 /* Header */
 
 .header-link {
