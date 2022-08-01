@@ -112,6 +112,7 @@ button:active {
   color: #1f2937;
   font-size: 36px;
   font-weight: 800;
+  margin-top: 0;
 }
 
 .info-group {
@@ -124,6 +125,7 @@ button:active {
 
 .info-group p {
   color: #1f2937;
+  margin-bottom: 0;
 }
 
 .item-container {
