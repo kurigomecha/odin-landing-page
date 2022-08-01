@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  min-height: 100vh;
   margin: 0px;
+  min-height: 100vh;
   padding: 0px;
 }
 
@@ -12,15 +12,15 @@ a {
 }
 
 button {
-  background: #3882f6;
-  color: #f9faf8;
   align-self: flex-start;
-  padding: 10px 30px;
-  font-weight: 800;
-  font-size: 1em;
+  background: #3882f6;
   border-radius: 8px;
   border: none;
+  color: #f9faf8;
   cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+  padding: 10px 30px;
 }
 
 button:active {
@@ -45,40 +45,40 @@ button:active {
 /* Header */
 
 .header-link {
+  display: flex;
+  gap: 25px;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 25px;
 }
 
 .header-logo {
-  font-size: 24px;
   color: #f9faf8;
-  font-weight: 800;
   flex: 1;
+  font-size: 24px;
+  font-weight: 800;
 }
 
 .header {
-  display: flex;
   /* justify-content: space-around; */
   align-items: center;
+  display: flex;
   padding: 0 20%;
 }
 
 /* Hero */
 
 .hero h1 {
+  color: #f9faf8;
   font-size: 48px;
   font-weight: 800;
-  color: #f9faf8;
   margin: 0;
 }
 
 .hero p,
 a {
-  font-size: 18px;
   color: #e5e7eb;
+  font-size: 18px;
 }
 
 .hero p {
@@ -86,36 +86,36 @@ a {
 }
 
 .hero {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
-  min-height: 450px;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 450px;
   padding: 0 20%;
 }
 
 .hero-main {
   display: flex;
   flex-direction: column;
-  min-width: 550px;
   flex: 1;
+  min-width: 550px;
 }
 
 .hero-image {
-  width: 500px;
-  height: 225px;
+  align-items: center;
   background: #6d747d;
   display: flex;
+  height: 225px;
   justify-content: center;
-  align-items: center;
+  width: 500px;
 }
 
 /* Info */
 
 .info h2 {
+  color: #1f2937;
   font-size: 36px;
   font-weight: 800;
-  color: #1f2937;
 }
 
 .info p {
@@ -124,36 +124,36 @@ a {
 }
 
 .info-image {
-  width: 200px;
-  height: 200px;
-  border: 4px solid #3882f6;
   border-radius: 1.25em;
-  padding: 0;
+  border: 4px solid #3882f6;
+  height: 200px;
   margin: 0;
+  padding: 0;
+  width: 200px;
 }
 
 .info {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  min-height: 450px;
   justify-content: center;
+  min-height: 450px;
 }
 
 .info-group {
-  display: flex;
-  justify-content: center;
   column-gap: 100px;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-size: 1.25em;
   max-width: 200px;
   text-align: center;
-  font-size: 1.25em;
 }
 
 /* Quote */
@@ -162,51 +162,50 @@ a {
   background: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 0 27.5%;
-  min-height: 400px;
   justify-content: center;
+  min-height: 400px;
+  padding: 0 27.5%;
 }
 
 .quote blockquote {
+  color: #1f2937;
   font-size: 36px;
   font-style: italic;
   font-weight: 200;
-  color: #1f2937;
   margin: 0;
 }
 
 .quote p {
-  margin: 0 0 0 auto;
-  font-weight: 800;
   font-size: 1.5em;
+  font-weight: 800;
+  margin: 0 0 0 auto;
 }
 
 /* Call to action */
 
 .call-to-action {
-
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 400px;
 }
 
 .call-container {
-  display: flex;
-  background: #3882f6;
-  color: #f9faf8;
-  padding: 50px 100px;
-  border-radius: 8px;
   align-items: center;
-  min-width: 40%;
+  background: #3882f6;
+  border-radius: 8px;
+  color: #f9faf8;
+  display: flex;
   gap: 15px;
+  min-width: 40%;
+  padding: 50px 100px;
 }
 
 .call-main {
   display: flex;
   flex-direction: column;
-  min-width: 200px;
   flex: 1;
+  min-width: 200px;
 }
 
 .call-button button {
@@ -224,10 +223,10 @@ a {
 /* Footer */
 
 .footer {
+  align-items: center;
   color: #f9faf8;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 75px;
   font-size: 1.15em;
+  justify-content: center;
+  min-height: 75px;
 }
