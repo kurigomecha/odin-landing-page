@@ -145,13 +145,12 @@ button:active {
   justify-content: center;
   min-height: 400px;
   padding: 0 27.5%;
+  color: #1f2937;
 }
 
 .quote blockquote {
-  color: #1f2937;
   font-size: 36px;
   font-style: italic;
-  font-weight: 200;
   margin: 0;
 }
 
