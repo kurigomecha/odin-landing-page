@@ -170,7 +170,6 @@ button:active {
 }
 
 .call-container {
-  align-items: center;
   background: #3882f6;
   border-radius: 8px;
   color: #f9faf8;
@@ -181,14 +180,7 @@ button:active {
 }
 
 .call-main {
-  display: flex;
-  flex-direction: column;
   flex: 1;
-  min-width: 200px;
-}
-
-.call-button button {
-  border: 2px solid white;
 }
 
 .call-main > p, h3 {
@@ -197,6 +189,10 @@ button:active {
 
 .call-main h3 {
   font-size: 1.25em;
+}
+
+.call-button button {
+  border: 2px solid white;
 }
 
 /* Footer */
