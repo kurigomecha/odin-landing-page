@@ -67,6 +67,11 @@ button:active {
   padding: 0 20%;
 }
 
+.hero p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
 .hero-main {
   flex: 1;
   min-width: 550px;  
@@ -79,11 +84,9 @@ button:active {
   margin: 0;
 }
 
-.hero p {
-  color: #e5e7eb;
-  font-size: 18px;
-  margin-top: 5px;
-  margin-right: 25px; /* Not perfect, but keeps the text element shorter */
+.hero-main p {
+  margin: 5px 25px 0;
+ /* Not perfect, but keeps the text element shorter */
 }
 
 .hero-image {
@@ -112,7 +115,7 @@ button:active {
 }
 
 .info-group {
-  column-gap: 100px; 
+  column-gap: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
