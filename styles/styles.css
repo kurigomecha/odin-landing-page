@@ -85,8 +85,8 @@ button:active {
 }
 
 .hero-main p {
-  margin: 5px 25px 0;
- /* Not perfect, but keeps the text element shorter */
+  margin-top: 5px;
+  margin-right: 25px; /* Not perfect, but keeps the text element shorter */
 }
 
 .hero-image {
